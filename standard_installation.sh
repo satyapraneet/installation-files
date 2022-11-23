@@ -15,28 +15,39 @@ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 4EB27DB2A3B88B8B &
 sleep 2
 
 sudo apt-get upgrade -y
+sleep 2
 
 #Zoom installing
 wget https://zoom.us/client/5.12.6.173/zoom_amd64.deb -P /tmp
 sudo apt install ./tmp/zoom_amd64.deb
+sleep 2
 
 #slack installing
 wget https://downloads.slack-edge.com/releases/linux/4.28.184/prod/x64/slack-desktop-4.28.184-amd64.deb -P /tmp
 sudo sudo apt install ./tmp/slack-desktop-4.28.184-amd64.deb
+sleep 2
 
 sudo apt install mysql-server -y
+sleep 2
 
 #MySQL Workbench
 wget https://github.com/satyapraneet63/installation-files/raw/main/mysql-workbench-community_8.0.16-1ubuntu18.04_amd64.deb -P /tmp
 sudo apt install ./tmp/mysql-workbench-community_8.0.16-1ubuntu18.04_amd64.deb
+sleep 2
 
 #Any_Desk Installing
 wget https://download.anydesk.com/linux/anydesk_6.2.0-1_amd64.deb -P /tmp
 sudo apt install ./tmp/anydesk_6.2.0-1_amd64.deb
+sleep 2
 
 #intellij IDE
 sudo snap install intellij-idea-community --classic
+sleep 2
 
-#sudo apt --fix-broken install -y
+#Git install
 sudo apt install git git-lfs -y
+sleep 2
 git lfs install
+sleep 2
+
+sudo apt --fix-broken install -y
