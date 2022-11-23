@@ -1,0 +1,304 @@
+11/17/2022 18:37:37 [20307] delete route 1.1.1.1
+11/17/2022 18:37:37 [20307] Add the route for 103.241.136.21(192.168.29.1)
+11/17/2022 18:37:37 [20307] router add default gw 10.212.134.198
+11/17/2022 19:05:23 [20239] rcv cmd:1 at state[1]
+11/17/2022 19:05:23 [20239] stopping ssl vpn tunnel[v4.4.2336]
+11/17/2022 19:05:23 [20239] kill_child:20248
+11/17/2022 19:05:23 [20239] kill_child:20244
+11/17/2022 19:05:23 [20244] signal rcved, logout now
+11/17/2022 19:05:23 [20248] killing pppd ...
+11/17/2022 19:05:23 [20244] ssl_write error return -1
+11/17/2022 19:05:23 [20248] kill_child:20251
+11/17/2022 19:05:23 [20248] kill_child:20307
+11/17/2022 19:05:23 [20239] tunnel terminated
+11/17/2022 19:05:23 [22417] begin cleanup linux...
+11/17/2022 19:05:23 [22417] restore /etc/resolv.conf
+11/17/2022 19:05:23 [22417] clean up route...
+11/17/2022 19:05:23 [22417] truncate pppd.log
+11/17/2022 19:05:23 [22417] truncate forticlientsslvpn.log
+11/17/2022 19:05:23 [20239] ssl vpn tunnel stopped
+11/17/2022 19:05:23 [20239] rcv cmd:2 at state[0]
+11/17/2022 19:05:25 [20094] Failed to get product id
+11/17/2022 19:05:25 [20094] Failed to get product id
+11/17/2022 21:44:55 [6104] set the loglevel to 1
+11/17/2022 21:44:55 [6052] set the loglevel to 1
+11/17/2022 21:44:55 [6104] sslvpn connection version:4.4.2336
+11/17/2022 21:44:55 [6104] rcv cmd:0 at state[0]
+11/17/2022 21:44:55 [6104] starting ssl vpn tunnel[4.4.2336]
+11/17/2022 21:44:55 [6108] route backup START
+11/17/2022 21:44:55 [6108] route backup DONE
+11/17/2022 21:44:55 [6109] execl /home/praneet/TRAY_VPN/forticlientsslvpn/64bit/./helper/get_fortisslvpn_info /home/praneet/TRAY_VPN/forticlientsslvpn/64bit/./helper 103.241.136.21 10443   ...
+11/17/2022 21:44:55 [6109] trusted CA dir: /home/praneet/.fctsslvpn_trustca
+11/17/2022 21:44:55 [6109] set loglevel to 1
+11/17/2022 21:44:55 [6109] Peer's certificate is not valid. action is 1
+11/17/2022 21:44:55 [6109] peer's certificate: 
+Certificate:$    Data:$        Version: 3 (0x2)$        Serial Number: 1964439 (0x1df997)$    Signature Algorithm: sha256WithRSAEncryption$        Issuer: C=US, ST=California, L=Sunnyvale, O=Fortinet, OU=Certificate Authority, CN=support/emailAddress=support@fortinet.com$        Validity$            Not Before: Feb 15 09:53:48 2019 GMT$            Not After : Jan 19 03:14:07 2038 GMT$        Subject: C=US, ST=California, L=Sunnyvale, O=Fortinet, OU=FortiGate, CN=FG100ETK19002340/emailAddress=support@fortinet.com$        Subject Public Key Info:$            Public Key Algorithm: rsaEncryption$                Public-Key: (2048 bit)$                Modulus:$                    00:e9:da:e2:dd:71:a3:ac:b5:ab:11:69:cd:d7:d0:$                    18:f2:7f:16:20:6a:cc:71:2c:d2:a5:59:24:81:4f:$                    c9:b2:4a:fe:85:0c:9f:5f:62:3e:a9:3b:fd:16:45:$                    bf:f9:d9:fd:d2:fe:67:b3:e9:a3:08:98:b1:d4:c1:$                    be:c5:cb:bc:09:a2:98:c2:96:44:f2:5c:ff:94:f5:$                    12:2c:98:1d:b6:de:e8:f2:0a:64:98:3a:fc:ab:71:$                    5a:65:2d:28:c3:a4:1b:df:ca:b2:e0:6f:60:9d:a9:$                    38:74:79:fa:84:52:13:51:62:40:b3:1b:1d:6b:78:$                    9c:97:98:64:65:b9:00:04:3d:7f:f3:08:74:cf:81:$                    be:0a:29:3e:f0:33:2f:53:2d:e6:24:51:d6:b8:e8:$                    f5:e3:2c:3b:60:76:3f:01:1b:46:ce:9a:6e:da:16:$                    17:1b:51:a6:7f:8d:e2:03:8e:7d:05:4b:47:bc:af:$                    a8:dc:3f:2e:fd:5e:f0:ca:85:71:f8:da:b3:51:37:$                    0c:16:1d:57:e0:d8:95:9c:59:cd:3f:b7:b6:f5:e1:$                    39:5d:40:25:78:20:b0:5b:62:f0:8c:31:99:63:c3:$                    ea:fd:d7:b3:61:7e:a0:11:1e:b2:34:c4:52:04:f3:$                    b0:0a:5e:6b:82:1a:e2:c7:4f:01:71:0d:3d:02:ec:$                    13:e5$                Exponent: 65537 (0x10001)$        X509v3 extensions:$            X509v3 Basic Constraints: $                CA:FALSE$    Signature Algorithm: sha256WithRSAEncryption$         55:5a:25:b6:5e:46:30:cf:b3:5c:79:9e:b5:f7:27:a2:a0:83:$         37:39:67:15:8d:0e:c5:04:2c:c8:98:d9:b4:5f:51:cd:6c:ea:$         d1:5a:ae:83:74:e0:46:13:a5:96:02:fe:82:94:a9:15:bc:3f:$         0f:b2:8c:e5:18:83:ed:e0:1c:f3:7d:b3:21:04:a2:3b:68:e9:$         36:8a:ff:b9:2f:1d:e5:ef:f5:fd:b3:d9:19:44:37:c9:73:88:$         94:c4:51:df:36:58:13:87:1c:d7:69:51:91:5f:f5:fb:4a:b4:$         5d:d3:7f:16:17:e9:e3:b0:c6:c7:e1:51:f6:e6:a0:04:fc:81:$         94:60:6b:f7:53:68:2a:bb:fc:41:0b:8f:c3:dd:6f:73:bf:ad:$         18:1b:db:02:5b:23:df:42:54:fe:9f:c6:d9:02:bd:d0:e7:e2:$         b6:52:41:d9:d0:0b:ed:c0:33:bf:d6:52:91:34:00:64:62:84:$         b7:51:3e:f1:aa:89:39:85:ec:e2:34:21:c2:69:7b:49:96:d6:$         77:37:8f:3c:67:95:9a:85:f8:64:70:c2:d1:65:61:0e:d7:48:$         62:ec:c3:38:30:12:b6:d9:dc:1a:5d:f9:79:be:88:8b:ad:9e:$         c8:aa:89:ca:b1:c5:4b:f9:d3:5d:62:13:a0:6c:38:64:10:a1:$         f0:59:88:a1$
+11/17/2022 21:45:01 [6109] realm is enabled: 
+11/17/2022 21:45:01 [6109] no Content-Length
+11/17/2022 21:45:01 [6109] try to get cookie for the first time: 98 :  SVPNNETWORKCOOKIE=; path=/remote/network; expires=Sun, 11 Mar 1984 12:00:00 GMT; secure; httponly
+11/17/2022 21:45:01 [6109] no Content-Length
+11/17/2022 21:45:01 [6109] cookie: SVPNCOOKIE=jnvyNehgGyAasSplndCNfdAEAK0D37Q8nQBGYiQOT/1vadDp9A/1fYZYYIcVEWh5dHW6HEtSVQw6nExSp3EIAy2plCXsktWsoePpFQ7iQBFu/fB9YfzqGENvlYFwlOoP6Nki1M7lTwVLRUQ7k6Rdn1PAqPq/L4NG3XiZ383ag6Wq9Zxpp34NsouJ42uiRAcJVCBY8AKcTuaRrAmVXR97Av4SynxkJKGIt834NVpcy8M=
+11/17/2022 21:45:01 [6109] no Content-Length
+11/17/2022 21:45:01 [6109] no Content-Length
+11/17/2022 21:45:01 [6109] 0|103.241.136.21|10443|1||jnvyNehgGyAasSplndCNfdAEAK0D37Q8nQBGYiQOT/1vadDp9A/1fYZYYIcVEWh5dHW6HEtSVQw6nExSp3EIAy2plCXsktWsoePpFQ7iQBFu/fB9YfzqGENvlYFwlOoP6Nki1M7lTwVLRUQ7k6Rdn1PAqPq/L4NG3XiZ383ag6Wq9Zxpp34NsouJ42uiRAcJVCBY8AKcTuaRrAmVXR97Av4SynxkJKGIt834NVpcy8M=|0
+11/17/2022 21:45:01 [6104] ssl vpn tunnel started
+11/17/2022 21:45:01 [6121] server=103.241.136.21[103.241.136.21] port=10443[10443] version=1 tunnel= cookie=jnvyNehgGyAasSplndCNfdAEAK0D37Q8nQBGYiQOT/1vadDp9A/1fYZYYIcVEWh5dHW6HEtSVQw6nExSp3EIAy2plCXsktWsoePpFQ7iQBFu/fB9YfzqGENvlYFwlOoP6Nki1M7lTwVLRUQ7k6Rdn1PAqPq/L4NG3XiZ383ag6Wq9Zxpp34NsouJ42uiRAcJVCBY8AKcTuaRrAmVXR97Av4SynxkJKGIt834NVpcy8M= exclusive routing: 0
+
+11/17/2022 21:45:01 [6121] starting pppd
+11/17/2022 21:45:01 [6121] use tty:/dev/pts/1
+11/17/2022 21:45:01 [6121] connecting to 103.241.136.21:10443
+11/17/2022 21:45:01 [6121] [xml config]: GET /remote/fortisslvpn_xml ... (received 1056 bytes): 
+HTTP/1.1 200 OK
+Date: Thu, 17 Nov 2022 16:02:54 GMT
+Server: xxxxxxxx-xxxxx
+Transfer-Encoding: chunked
+Content-Type: text/xml
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'; object-src 'none'; script-src 'self' https 'unsafe-eval' 'unsafe-inline';
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+
+<?xml version='1.0' encoding='utf-8'?><sslvpn-tunnel ver='2' dtls='1' patch='1'><dtls-config heartbeat-interval='10' heartbeat-fail-count='10' heartbeat-idle-timeout='10' client-hello-timeout='10' /><tunnel-method value='ppp' /><tunnel-method value='tun' /><fos platform='FG100E' major='6' minor='02' patch='2' build='1010' branch='1010' /><auth-ses check-src-ip='1' tun-connect-without-reauth='0' tun-user-ses-timeout='30' /><client-config save-password='on' keep-alive='off' auto-connect='off' /><ipv4><dns ip='8.8.8.8' /><dns ip='8.8.4.4' /><assigned-addr ipv4='10.212.134.192' /></ipv4><idle-timeout val='300' /><auth-timeout val='28800' /></sslvpn-tunnel>
+----
+
+11/17/2022 21:45:01 [6121] dns suffix: 
+
+11/17/2022 21:45:01 [6121] Got local address from ppp, interface will be  up
+11/17/2022 21:45:01 [6052] Failed to get product id
+11/17/2022 21:45:01 [6052] Failed to get product id
+11/17/2022 21:45:02 [6121] ppp interface is up
+11/17/2022 21:45:02 [6121] run_scutil 103.241.136.21 0 0...
+Generating pppd.resolv.conf...Done
+11/17/2022 21:45:03 [6180] begin sysconfig linux
+11/17/2022 21:45:03 [6180] Gateway to FGT: 192.168.29.1
+11/17/2022 21:45:03 [6180] delete route 1.1.1.1
+11/17/2022 21:45:03 [6180] Add the route for 103.241.136.21(192.168.29.1)
+11/17/2022 21:45:03 [6180] router add default gw 10.212.134.192
+11/18/2022 12:37:52 [11423] set the loglevel to 1
+11/18/2022 12:37:52 [11423] sslvpn connection version:4.4.2336
+11/18/2022 12:37:52 [11373] set the loglevel to 1
+11/18/2022 12:37:52 [11423] rcv cmd:0 at state[0]
+11/18/2022 12:37:52 [11423] starting ssl vpn tunnel[4.4.2336]
+11/18/2022 12:37:52 [11427] route backup START
+11/18/2022 12:37:52 [11427] route backup DONE
+11/18/2022 12:37:52 [11428] execl /home/praneet/TRAY_VPN/forticlientsslvpn/64bit/./helper/get_fortisslvpn_info /home/praneet/TRAY_VPN/forticlientsslvpn/64bit/./helper 103.241.136.21 10443   ...
+11/18/2022 12:37:52 [11428] trusted CA dir: /home/praneet/.fctsslvpn_trustca
+11/18/2022 12:37:52 [11428] set loglevel to 1
+11/18/2022 12:37:53 [11428] Peer's certificate is not valid. action is 1
+11/18/2022 12:37:53 [11428] peer's certificate: 
+Certificate:$    Data:$        Version: 3 (0x2)$        Serial Number: 1964439 (0x1df997)$    Signature Algorithm: sha256WithRSAEncryption$        Issuer: C=US, ST=California, L=Sunnyvale, O=Fortinet, OU=Certificate Authority, CN=support/emailAddress=support@fortinet.com$        Validity$            Not Before: Feb 15 09:53:48 2019 GMT$            Not After : Jan 19 03:14:07 2038 GMT$        Subject: C=US, ST=California, L=Sunnyvale, O=Fortinet, OU=FortiGate, CN=FG100ETK19002340/emailAddress=support@fortinet.com$        Subject Public Key Info:$            Public Key Algorithm: rsaEncryption$                Public-Key: (2048 bit)$                Modulus:$                    00:e9:da:e2:dd:71:a3:ac:b5:ab:11:69:cd:d7:d0:$                    18:f2:7f:16:20:6a:cc:71:2c:d2:a5:59:24:81:4f:$                    c9:b2:4a:fe:85:0c:9f:5f:62:3e:a9:3b:fd:16:45:$                    bf:f9:d9:fd:d2:fe:67:b3:e9:a3:08:98:b1:d4:c1:$                    be:c5:cb:bc:09:a2:98:c2:96:44:f2:5c:ff:94:f5:$                    12:2c:98:1d:b6:de:e8:f2:0a:64:98:3a:fc:ab:71:$                    5a:65:2d:28:c3:a4:1b:df:ca:b2:e0:6f:60:9d:a9:$                    38:74:79:fa:84:52:13:51:62:40:b3:1b:1d:6b:78:$                    9c:97:98:64:65:b9:00:04:3d:7f:f3:08:74:cf:81:$                    be:0a:29:3e:f0:33:2f:53:2d:e6:24:51:d6:b8:e8:$                    f5:e3:2c:3b:60:76:3f:01:1b:46:ce:9a:6e:da:16:$                    17:1b:51:a6:7f:8d:e2:03:8e:7d:05:4b:47:bc:af:$                    a8:dc:3f:2e:fd:5e:f0:ca:85:71:f8:da:b3:51:37:$                    0c:16:1d:57:e0:d8:95:9c:59:cd:3f:b7:b6:f5:e1:$                    39:5d:40:25:78:20:b0:5b:62:f0:8c:31:99:63:c3:$                    ea:fd:d7:b3:61:7e:a0:11:1e:b2:34:c4:52:04:f3:$                    b0:0a:5e:6b:82:1a:e2:c7:4f:01:71:0d:3d:02:ec:$                    13:e5$                Exponent: 65537 (0x10001)$        X509v3 extensions:$            X509v3 Basic Constraints: $                CA:FALSE$    Signature Algorithm: sha256WithRSAEncryption$         55:5a:25:b6:5e:46:30:cf:b3:5c:79:9e:b5:f7:27:a2:a0:83:$         37:39:67:15:8d:0e:c5:04:2c:c8:98:d9:b4:5f:51:cd:6c:ea:$         d1:5a:ae:83:74:e0:46:13:a5:96:02:fe:82:94:a9:15:bc:3f:$         0f:b2:8c:e5:18:83:ed:e0:1c:f3:7d:b3:21:04:a2:3b:68:e9:$         36:8a:ff:b9:2f:1d:e5:ef:f5:fd:b3:d9:19:44:37:c9:73:88:$         94:c4:51:df:36:58:13:87:1c:d7:69:51:91:5f:f5:fb:4a:b4:$         5d:d3:7f:16:17:e9:e3:b0:c6:c7:e1:51:f6:e6:a0:04:fc:81:$         94:60:6b:f7:53:68:2a:bb:fc:41:0b:8f:c3:dd:6f:73:bf:ad:$         18:1b:db:02:5b:23:df:42:54:fe:9f:c6:d9:02:bd:d0:e7:e2:$         b6:52:41:d9:d0:0b:ed:c0:33:bf:d6:52:91:34:00:64:62:84:$         b7:51:3e:f1:aa:89:39:85:ec:e2:34:21:c2:69:7b:49:96:d6:$         77:37:8f:3c:67:95:9a:85:f8:64:70:c2:d1:65:61:0e:d7:48:$         62:ec:c3:38:30:12:b6:d9:dc:1a:5d:f9:79:be:88:8b:ad:9e:$         c8:aa:89:ca:b1:c5:4b:f9:d3:5d:62:13:a0:6c:38:64:10:a1:$         f0:59:88:a1$
+11/18/2022 12:37:54 [11428] realm is enabled: 
+11/18/2022 12:37:54 [11428] no Content-Length
+11/18/2022 12:37:54 [11428] try to get cookie for the first time: 98 :  SVPNNETWORKCOOKIE=; path=/remote/network; expires=Sun, 11 Mar 1984 12:00:00 GMT; secure; httponly
+11/18/2022 12:37:54 [11428] no Content-Length
+11/18/2022 12:37:54 [11428] cookie: SVPNCOOKIE=RM9sVPpKJ3IfQyFK/Ea+aICd3A/ChRn4b0VeLtB31ovkbS09x3k4UkAaEAgvjLNHHIN+MGFOQdD755jvouw4Yq0PXAHZYoSWx+YnHh4ITO1gkSNBvK+k+kkPZOpKbgkb+Li10Jvid0yIp9MRKKn390mGn95HBiK2Qi6EhzOvFbkjeFS/xUrl0LYB5m7PMaFqS+dGodxYrwvYiTY6TpB41W8mmtSFn020f7lZgiAxG8y5lkLENNwhFMB6FSuD9lMf
+11/18/2022 12:37:54 [11428] no Content-Length
+11/18/2022 12:37:54 [11428] no Content-Length
+11/18/2022 12:37:54 [11428] 0|103.241.136.21|10443|1||RM9sVPpKJ3IfQyFK/Ea+aICd3A/ChRn4b0VeLtB31ovkbS09x3k4UkAaEAgvjLNHHIN+MGFOQdD755jvouw4Yq0PXAHZYoSWx+YnHh4ITO1gkSNBvK+k+kkPZOpKbgkb+Li10Jvid0yIp9MRKKn390mGn95HBiK2Qi6EhzOvFbkjeFS/xUrl0LYB5m7PMaFqS+dGodxYrwvYiTY6TpB41W8mmtSFn020f7lZgiAxG8y5lkLENNwhFMB6FSuD9lMf|0
+11/18/2022 12:37:54 [11423] ssl vpn tunnel started
+11/18/2022 12:37:54 [11437] server=103.241.136.21[103.241.136.21] port=10443[10443] version=1 tunnel= cookie=RM9sVPpKJ3IfQyFK/Ea+aICd3A/ChRn4b0VeLtB31ovkbS09x3k4UkAaEAgvjLNHHIN+MGFOQdD755jvouw4Yq0PXAHZYoSWx+YnHh4ITO1gkSNBvK+k+kkPZOpKbgkb+Li10Jvid0yIp9MRKKn390mGn95HBiK2Qi6EhzOvFbkjeFS/xUrl0LYB5m7PMaFqS+dGodxYrwvYiTY6TpB41W8mmtSFn020f7lZgiAxG8y5lkLENNwhFMB6FSuD9lMf exclusive routing: 0
+
+11/18/2022 12:37:54 [11437] starting pppd
+11/18/2022 12:37:54 [11437] use tty:/dev/pts/1
+11/18/2022 12:37:54 [11437] connecting to 103.241.136.21:10443
+11/18/2022 12:37:54 [11437] [xml config]: GET /remote/fortisslvpn_xml ... (received 1056 bytes): 
+HTTP/1.1 200 OK
+Date: Fri, 18 Nov 2022 06:55:46 GMT
+Server: xxxxxxxx-xxxxx
+Transfer-Encoding: chunked
+Content-Type: text/xml
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'; object-src 'none'; script-src 'self' https 'unsafe-eval' 'unsafe-inline';
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+
+<?xml version='1.0' encoding='utf-8'?><sslvpn-tunnel ver='2' dtls='1' patch='1'><dtls-config heartbeat-interval='10' heartbeat-fail-count='10' heartbeat-idle-timeout='10' client-hello-timeout='10' /><tunnel-method value='ppp' /><tunnel-method value='tun' /><fos platform='FG100E' major='6' minor='02' patch='2' build='1010' branch='1010' /><auth-ses check-src-ip='1' tun-connect-without-reauth='0' tun-user-ses-timeout='30' /><client-config save-password='on' keep-alive='off' auto-connect='off' /><ipv4><dns ip='8.8.8.8' /><dns ip='8.8.4.4' /><assigned-addr ipv4='10.212.134.192' /></ipv4><idle-timeout val='300' /><auth-timeout val='28800' /></sslvpn-tunnel>
+----
+
+11/18/2022 12:37:54 [11437] dns suffix: 
+
+11/18/2022 12:37:54 [11373] Failed to get product id
+11/18/2022 12:37:54 [11437] Got local address from ppp, interface will be  up
+11/18/2022 12:37:54 [11373] Failed to get product id
+11/18/2022 12:37:55 [11437] ppp interface is up
+11/18/2022 12:37:55 [11437] run_scutil 103.241.136.21 0 0...
+Generating pppd.resolv.conf...Done
+11/18/2022 12:37:56 [11494] begin sysconfig linux
+11/18/2022 12:37:56 [11494] Gateway to FGT: 192.168.29.1
+11/18/2022 12:37:56 [11494] delete route 1.1.1.1
+11/18/2022 12:37:56 [11494] Add the route for 103.241.136.21(192.168.29.1)
+11/18/2022 12:37:56 [11494] router add default gw 10.212.134.192
+11/18/2022 16:03:45 [11423] rcv cmd:1 at state[1]
+11/18/2022 16:03:45 [11423] stopping ssl vpn tunnel[v4.4.2336]
+11/18/2022 16:03:45 [11423] kill_child:11437
+11/18/2022 16:03:45 [11423] kill_child:11428
+11/18/2022 16:03:45 [11428] signal rcved, logout now
+11/18/2022 16:03:45 [11437] killing pppd ...
+11/18/2022 16:03:45 [11437] kill_child:11440
+11/18/2022 16:03:45 [11428] ssl_write error return -1
+11/18/2022 16:03:45 [11437] kill_child:11494
+11/18/2022 16:03:45 [11423] tunnel terminated
+11/18/2022 16:03:45 [19633] begin cleanup linux...
+11/18/2022 16:03:45 [19633] restore /etc/resolv.conf
+11/18/2022 16:03:45 [19633] clean up route...
+11/18/2022 16:03:45 [19633] truncate pppd.log
+11/18/2022 16:03:45 [19633] truncate forticlientsslvpn.log
+11/18/2022 16:03:45 [11423] ssl vpn tunnel stopped
+11/18/2022 16:03:45 [11423] rcv cmd:2 at state[0]
+11/18/2022 16:03:46 [11373] Failed to get product id
+11/18/2022 16:03:46 [11373] Failed to get product id
+11/22/2022 05:58:40 [8184] set the loglevel to 1
+11/22/2022 05:58:40 [8184] sslvpn connection version:4.4.2336
+11/22/2022 05:58:40 [8077] set the loglevel to 1
+11/22/2022 05:58:40 [8184] rcv cmd:0 at state[0]
+11/22/2022 05:58:40 [8184] starting ssl vpn tunnel[4.4.2336]
+11/22/2022 05:58:40 [8188] route backup START
+11/22/2022 05:58:40 [8188] route backup DONE
+11/22/2022 05:58:40 [8189] execl /home/praneet/TRAY_VPN/forticlientsslvpn/64bit/./helper/get_fortisslvpn_info /home/praneet/TRAY_VPN/forticlientsslvpn/64bit/./helper 103.241.136.21 10443   ...
+11/22/2022 05:58:40 [8189] trusted CA dir: /home/praneet/.fctsslvpn_trustca
+11/22/2022 05:58:40 [8189] set loglevel to 1
+11/22/2022 05:58:40 [8189] Peer's certificate is not valid. action is 1
+11/22/2022 05:58:40 [8189] peer's certificate: 
+Certificate:$    Data:$        Version: 3 (0x2)$        Serial Number: 1964439 (0x1df997)$    Signature Algorithm: sha256WithRSAEncryption$        Issuer: C=US, ST=California, L=Sunnyvale, O=Fortinet, OU=Certificate Authority, CN=support/emailAddress=support@fortinet.com$        Validity$            Not Before: Feb 15 09:53:48 2019 GMT$            Not After : Jan 19 03:14:07 2038 GMT$        Subject: C=US, ST=California, L=Sunnyvale, O=Fortinet, OU=FortiGate, CN=FG100ETK19002340/emailAddress=support@fortinet.com$        Subject Public Key Info:$            Public Key Algorithm: rsaEncryption$                Public-Key: (2048 bit)$                Modulus:$                    00:e9:da:e2:dd:71:a3:ac:b5:ab:11:69:cd:d7:d0:$                    18:f2:7f:16:20:6a:cc:71:2c:d2:a5:59:24:81:4f:$                    c9:b2:4a:fe:85:0c:9f:5f:62:3e:a9:3b:fd:16:45:$                    bf:f9:d9:fd:d2:fe:67:b3:e9:a3:08:98:b1:d4:c1:$                    be:c5:cb:bc:09:a2:98:c2:96:44:f2:5c:ff:94:f5:$                    12:2c:98:1d:b6:de:e8:f2:0a:64:98:3a:fc:ab:71:$                    5a:65:2d:28:c3:a4:1b:df:ca:b2:e0:6f:60:9d:a9:$                    38:74:79:fa:84:52:13:51:62:40:b3:1b:1d:6b:78:$                    9c:97:98:64:65:b9:00:04:3d:7f:f3:08:74:cf:81:$                    be:0a:29:3e:f0:33:2f:53:2d:e6:24:51:d6:b8:e8:$                    f5:e3:2c:3b:60:76:3f:01:1b:46:ce:9a:6e:da:16:$                    17:1b:51:a6:7f:8d:e2:03:8e:7d:05:4b:47:bc:af:$                    a8:dc:3f:2e:fd:5e:f0:ca:85:71:f8:da:b3:51:37:$                    0c:16:1d:57:e0:d8:95:9c:59:cd:3f:b7:b6:f5:e1:$                    39:5d:40:25:78:20:b0:5b:62:f0:8c:31:99:63:c3:$                    ea:fd:d7:b3:61:7e:a0:11:1e:b2:34:c4:52:04:f3:$                    b0:0a:5e:6b:82:1a:e2:c7:4f:01:71:0d:3d:02:ec:$                    13:e5$                Exponent: 65537 (0x10001)$        X509v3 extensions:$            X509v3 Basic Constraints: $                CA:FALSE$    Signature Algorithm: sha256WithRSAEncryption$         55:5a:25:b6:5e:46:30:cf:b3:5c:79:9e:b5:f7:27:a2:a0:83:$         37:39:67:15:8d:0e:c5:04:2c:c8:98:d9:b4:5f:51:cd:6c:ea:$         d1:5a:ae:83:74:e0:46:13:a5:96:02:fe:82:94:a9:15:bc:3f:$         0f:b2:8c:e5:18:83:ed:e0:1c:f3:7d:b3:21:04:a2:3b:68:e9:$         36:8a:ff:b9:2f:1d:e5:ef:f5:fd:b3:d9:19:44:37:c9:73:88:$         94:c4:51:df:36:58:13:87:1c:d7:69:51:91:5f:f5:fb:4a:b4:$         5d:d3:7f:16:17:e9:e3:b0:c6:c7:e1:51:f6:e6:a0:04:fc:81:$         94:60:6b:f7:53:68:2a:bb:fc:41:0b:8f:c3:dd:6f:73:bf:ad:$         18:1b:db:02:5b:23:df:42:54:fe:9f:c6:d9:02:bd:d0:e7:e2:$         b6:52:41:d9:d0:0b:ed:c0:33:bf:d6:52:91:34:00:64:62:84:$         b7:51:3e:f1:aa:89:39:85:ec:e2:34:21:c2:69:7b:49:96:d6:$         77:37:8f:3c:67:95:9a:85:f8:64:70:c2:d1:65:61:0e:d7:48:$         62:ec:c3:38:30:12:b6:d9:dc:1a:5d:f9:79:be:88:8b:ad:9e:$         c8:aa:89:ca:b1:c5:4b:f9:d3:5d:62:13:a0:6c:38:64:10:a1:$         f0:59:88:a1$
+11/22/2022 05:58:43 [8189] realm is enabled: 
+11/22/2022 05:58:43 [8189] no Content-Length
+11/22/2022 05:58:43 [8189] try to get cookie for the first time: 98 :  SVPNNETWORKCOOKIE=; path=/remote/network; expires=Sun, 11 Mar 1984 12:00:00 GMT; secure; httponly
+11/22/2022 05:58:43 [8189] no Content-Length
+11/22/2022 05:58:43 [8189] cookie: SVPNCOOKIE=Xt/NLYD5XSxMyidqUR9rP4sv+8bCUKqGsTvlIE88UyUBmaDVsghtHRweutVcCjq4DbndWbNLCBewKe575NgQXf/XvcyUIAsHtpWVgV3nTv8AJG5SrgLI6lH2vWdQZS6LmcqRRwjBHB+6OOkSrqDlGrzcTcaOhJPpvFtytsNCyOt3PBE+N1NFkP2ey7fK8APXUDyCri3ShfuWbtDyoT1CxX7iaQyX349HF/Ojui5oFJXMpT+U5IpnfJtesGEcysdJ
+11/22/2022 05:58:43 [8189] no Content-Length
+11/22/2022 05:58:43 [8189] no Content-Length
+11/22/2022 05:58:43 [8189] 0|103.241.136.21|10443|1||Xt/NLYD5XSxMyidqUR9rP4sv+8bCUKqGsTvlIE88UyUBmaDVsghtHRweutVcCjq4DbndWbNLCBewKe575NgQXf/XvcyUIAsHtpWVgV3nTv8AJG5SrgLI6lH2vWdQZS6LmcqRRwjBHB+6OOkSrqDlGrzcTcaOhJPpvFtytsNCyOt3PBE+N1NFkP2ey7fK8APXUDyCri3ShfuWbtDyoT1CxX7iaQyX349HF/Ojui5oFJXMpT+U5IpnfJtesGEcysdJ|0
+11/22/2022 05:58:43 [8184] ssl vpn tunnel started
+11/22/2022 05:58:43 [8191] server=103.241.136.21[103.241.136.21] port=10443[10443] version=1 tunnel= cookie=Xt/NLYD5XSxMyidqUR9rP4sv+8bCUKqGsTvlIE88UyUBmaDVsghtHRweutVcCjq4DbndWbNLCBewKe575NgQXf/XvcyUIAsHtpWVgV3nTv8AJG5SrgLI6lH2vWdQZS6LmcqRRwjBHB+6OOkSrqDlGrzcTcaOhJPpvFtytsNCyOt3PBE+N1NFkP2ey7fK8APXUDyCri3ShfuWbtDyoT1CxX7iaQyX349HF/Ojui5oFJXMpT+U5IpnfJtesGEcysdJ exclusive routing: 0
+
+11/22/2022 05:58:43 [8191] starting pppd
+11/22/2022 05:58:43 [8191] use tty:/dev/pts/1
+11/22/2022 05:58:43 [8191] connecting to 103.241.136.21:10443
+11/22/2022 05:58:43 [8191] [xml config]: GET /remote/fortisslvpn_xml ... (received 1056 bytes): 
+HTTP/1.1 200 OK
+Date: Tue, 22 Nov 2022 00:16:29 GMT
+Server: xxxxxxxx-xxxxx
+Transfer-Encoding: chunked
+Content-Type: text/xml
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'; object-src 'none'; script-src 'self' https 'unsafe-eval' 'unsafe-inline';
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+
+<?xml version='1.0' encoding='utf-8'?><sslvpn-tunnel ver='2' dtls='1' patch='1'><dtls-config heartbeat-interval='10' heartbeat-fail-count='10' heartbeat-idle-timeout='10' client-hello-timeout='10' /><tunnel-method value='ppp' /><tunnel-method value='tun' /><fos platform='FG100E' major='6' minor='02' patch='2' build='1010' branch='1010' /><auth-ses check-src-ip='1' tun-connect-without-reauth='0' tun-user-ses-timeout='30' /><client-config save-password='on' keep-alive='off' auto-connect='off' /><ipv4><dns ip='8.8.8.8' /><dns ip='8.8.4.4' /><assigned-addr ipv4='10.212.134.191' /></ipv4><idle-timeout val='300' /><auth-timeout val='28800' /></sslvpn-tunnel>
+----
+
+11/22/2022 05:58:43 [8191] dns suffix: 
+
+11/22/2022 05:58:43 [8077] Failed to get product id
+11/22/2022 05:58:43 [8077] Failed to get product id
+11/22/2022 05:58:43 [8191] Got local address from ppp, interface will be  up
+11/22/2022 05:58:45 [8191] ppp interface is up
+11/22/2022 05:58:45 [8191] run_scutil 103.241.136.21 0 0...
+Generating pppd.resolv.conf...Done
+11/22/2022 05:58:46 [8248] begin sysconfig linux
+11/22/2022 05:58:46 [8248] Gateway to FGT: 192.168.1.1
+11/22/2022 05:58:46 [8248] delete route 1.1.1.1
+11/22/2022 05:58:46 [8248] Add the route for 103.241.136.21(192.168.1.1)
+11/22/2022 05:58:46 [8248] router add default gw 10.212.134.191
+11/22/2022 08:58:28 [8191] read error from tty[Input/output error]
+11/22/2022 08:58:28 [8191] rcv frame from tty fail
+11/22/2022 08:58:28 [8191] io finished, kill pppd
+11/22/2022 08:58:28 [8191] kill_child:8193
+11/22/2022 08:58:28 [8191] tunnel finished, killing session
+11/22/2022 08:58:28 [8191] killing pppd ...
+11/22/2022 08:58:28 [8191] kill_child:8248
+11/22/2022 08:58:28 [8184] tunnel terminated
+11/22/2022 08:58:28 [8184] tunnel down unexpected
+11/22/2022 08:58:28 [8184] kill_child:8189
+11/22/2022 08:58:28 [8189] signal rcved, logout now
+11/22/2022 08:58:28 [8189] ssl_write error return -1
+11/22/2022 08:58:28 [22760] begin cleanup linux...
+11/22/2022 08:58:28 [22760] restore /etc/resolv.conf
+11/22/2022 08:58:28 [22760] clean up route...
+11/22/2022 08:58:28 [22760] failed to delete route: dst=103.241.136.21, mask=255.255.255.255, gw=192.168.1.1, dev=wlp0s20f3
+11/22/2022 08:58:28 [22760] truncate pppd.log
+11/22/2022 08:58:28 [22760] truncate forticlientsslvpn.log
+11/22/2022 08:58:28 [8184] select: Interrupted system call
+11/22/2022 08:58:28 [8184] select: Interrupted system call
+11/22/2022 17:24:24 [8184] rcv cmd:1 at state[0]
+11/22/2022 17:24:24 [8184] rcv cmd:2 at state[0]
+11/22/2022 17:24:26 [8077] Failed to get product id
+11/22/2022 17:24:26 [8077] Failed to get product id
+11/23/2022 18:18:17 [46089] set the loglevel to 1
+11/23/2022 18:18:17 [46089] sslvpn connection version:4.4.2336
+11/23/2022 18:18:17 [46031] set the loglevel to 1
+11/23/2022 18:18:17 [46089] rcv cmd:0 at state[0]
+11/23/2022 18:18:17 [46089] starting ssl vpn tunnel[4.4.2336]
+11/23/2022 18:18:17 [46093] route backup START
+11/23/2022 18:18:17 [46093] route backup DONE
+11/23/2022 18:18:17 [46094] execl /home/praneet/TRAY_VPN/forticlientsslvpn/64bit/./helper/get_fortisslvpn_info /home/praneet/TRAY_VPN/forticlientsslvpn/64bit/./helper 103.241.136.21 10443   ...
+11/23/2022 18:18:17 [46094] trusted CA dir: /home/praneet/.fctsslvpn_trustca
+11/23/2022 18:18:17 [46094] set loglevel to 1
+11/23/2022 18:18:17 [46094] Peer's certificate is not valid. action is 1
+11/23/2022 18:18:17 [46094] peer's certificate: 
+Certificate:$    Data:$        Version: 3 (0x2)$        Serial Number: 1964439 (0x1df997)$    Signature Algorithm: sha256WithRSAEncryption$        Issuer: C=US, ST=California, L=Sunnyvale, O=Fortinet, OU=Certificate Authority, CN=support/emailAddress=support@fortinet.com$        Validity$            Not Before: Feb 15 09:53:48 2019 GMT$            Not After : Jan 19 03:14:07 2038 GMT$        Subject: C=US, ST=California, L=Sunnyvale, O=Fortinet, OU=FortiGate, CN=FG100ETK19002340/emailAddress=support@fortinet.com$        Subject Public Key Info:$            Public Key Algorithm: rsaEncryption$                Public-Key: (2048 bit)$                Modulus:$                    00:e9:da:e2:dd:71:a3:ac:b5:ab:11:69:cd:d7:d0:$                    18:f2:7f:16:20:6a:cc:71:2c:d2:a5:59:24:81:4f:$                    c9:b2:4a:fe:85:0c:9f:5f:62:3e:a9:3b:fd:16:45:$                    bf:f9:d9:fd:d2:fe:67:b3:e9:a3:08:98:b1:d4:c1:$                    be:c5:cb:bc:09:a2:98:c2:96:44:f2:5c:ff:94:f5:$                    12:2c:98:1d:b6:de:e8:f2:0a:64:98:3a:fc:ab:71:$                    5a:65:2d:28:c3:a4:1b:df:ca:b2:e0:6f:60:9d:a9:$                    38:74:79:fa:84:52:13:51:62:40:b3:1b:1d:6b:78:$                    9c:97:98:64:65:b9:00:04:3d:7f:f3:08:74:cf:81:$                    be:0a:29:3e:f0:33:2f:53:2d:e6:24:51:d6:b8:e8:$                    f5:e3:2c:3b:60:76:3f:01:1b:46:ce:9a:6e:da:16:$                    17:1b:51:a6:7f:8d:e2:03:8e:7d:05:4b:47:bc:af:$                    a8:dc:3f:2e:fd:5e:f0:ca:85:71:f8:da:b3:51:37:$                    0c:16:1d:57:e0:d8:95:9c:59:cd:3f:b7:b6:f5:e1:$                    39:5d:40:25:78:20:b0:5b:62:f0:8c:31:99:63:c3:$                    ea:fd:d7:b3:61:7e:a0:11:1e:b2:34:c4:52:04:f3:$                    b0:0a:5e:6b:82:1a:e2:c7:4f:01:71:0d:3d:02:ec:$                    13:e5$                Exponent: 65537 (0x10001)$        X509v3 extensions:$            X509v3 Basic Constraints: $                CA:FALSE$    Signature Algorithm: sha256WithRSAEncryption$         55:5a:25:b6:5e:46:30:cf:b3:5c:79:9e:b5:f7:27:a2:a0:83:$         37:39:67:15:8d:0e:c5:04:2c:c8:98:d9:b4:5f:51:cd:6c:ea:$         d1:5a:ae:83:74:e0:46:13:a5:96:02:fe:82:94:a9:15:bc:3f:$         0f:b2:8c:e5:18:83:ed:e0:1c:f3:7d:b3:21:04:a2:3b:68:e9:$         36:8a:ff:b9:2f:1d:e5:ef:f5:fd:b3:d9:19:44:37:c9:73:88:$         94:c4:51:df:36:58:13:87:1c:d7:69:51:91:5f:f5:fb:4a:b4:$         5d:d3:7f:16:17:e9:e3:b0:c6:c7:e1:51:f6:e6:a0:04:fc:81:$         94:60:6b:f7:53:68:2a:bb:fc:41:0b:8f:c3:dd:6f:73:bf:ad:$         18:1b:db:02:5b:23:df:42:54:fe:9f:c6:d9:02:bd:d0:e7:e2:$         b6:52:41:d9:d0:0b:ed:c0:33:bf:d6:52:91:34:00:64:62:84:$         b7:51:3e:f1:aa:89:39:85:ec:e2:34:21:c2:69:7b:49:96:d6:$         77:37:8f:3c:67:95:9a:85:f8:64:70:c2:d1:65:61:0e:d7:48:$         62:ec:c3:38:30:12:b6:d9:dc:1a:5d:f9:79:be:88:8b:ad:9e:$         c8:aa:89:ca:b1:c5:4b:f9:d3:5d:62:13:a0:6c:38:64:10:a1:$         f0:59:88:a1$
+11/23/2022 18:18:21 [46094] realm is enabled: 
+11/23/2022 18:18:21 [46094] no Content-Length
+11/23/2022 18:18:21 [46094] try to get cookie for the first time: 98 :  SVPNNETWORKCOOKIE=; path=/remote/network; expires=Sun, 11 Mar 1984 12:00:00 GMT; secure; httponly
+11/23/2022 18:18:21 [46094] no Content-Length
+11/23/2022 18:18:21 [46094] cookie: SVPNCOOKIE=sOCsXdSKZRqBYF950DZTX0kO5K+4Njh4RHCPX/ZPwte+NgG178PIa8Ffpz0zmzjF96Ucc2hEAIU5sZxCLPalfUdJuYzMFRoZ+MLIB6WyO2vhh5DIonyH+R++RaSKRefuv+1d1tM4lL+5QdxHj8R4BGU+36L1aKxguMk2ckCwWkpM6oX5ozrRyyfKSC0uukEamQYx9q18eEcLggndrykvLslcPrjAx3mZeGkrG0EV93NClYkRlAdFX6xbGIhB4Igu
+11/23/2022 18:18:21 [46094] no Content-Length
+11/23/2022 18:18:21 [46094] no Content-Length
+11/23/2022 18:18:21 [46094] 0|103.241.136.21|10443|1||sOCsXdSKZRqBYF950DZTX0kO5K+4Njh4RHCPX/ZPwte+NgG178PIa8Ffpz0zmzjF96Ucc2hEAIU5sZxCLPalfUdJuYzMFRoZ+MLIB6WyO2vhh5DIonyH+R++RaSKRefuv+1d1tM4lL+5QdxHj8R4BGU+36L1aKxguMk2ckCwWkpM6oX5ozrRyyfKSC0uukEamQYx9q18eEcLggndrykvLslcPrjAx3mZeGkrG0EV93NClYkRlAdFX6xbGIhB4Igu|0
+11/23/2022 18:18:21 [46089] ssl vpn tunnel started
+11/23/2022 18:18:21 [46100] server=103.241.136.21[103.241.136.21] port=10443[10443] version=1 tunnel= cookie=sOCsXdSKZRqBYF950DZTX0kO5K+4Njh4RHCPX/ZPwte+NgG178PIa8Ffpz0zmzjF96Ucc2hEAIU5sZxCLPalfUdJuYzMFRoZ+MLIB6WyO2vhh5DIonyH+R++RaSKRefuv+1d1tM4lL+5QdxHj8R4BGU+36L1aKxguMk2ckCwWkpM6oX5ozrRyyfKSC0uukEamQYx9q18eEcLggndrykvLslcPrjAx3mZeGkrG0EV93NClYkRlAdFX6xbGIhB4Igu exclusive routing: 0
+
+11/23/2022 18:18:21 [46100] starting pppd
+11/23/2022 18:18:21 [46100] use tty:/dev/pts/1
+11/23/2022 18:18:21 [46100] connecting to 103.241.136.21:10443
+11/23/2022 18:18:22 [46100] [xml config]: GET /remote/fortisslvpn_xml ... (received 1056 bytes): 
+HTTP/1.1 200 OK
+Date: Wed, 23 Nov 2022 12:36:06 GMT
+Server: xxxxxxxx-xxxxx
+Transfer-Encoding: chunked
+Content-Type: text/xml
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'; object-src 'none'; script-src 'self' https 'unsafe-eval' 'unsafe-inline';
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+
+<?xml version='1.0' encoding='utf-8'?><sslvpn-tunnel ver='2' dtls='1' patch='1'><dtls-config heartbeat-interval='10' heartbeat-fail-count='10' heartbeat-idle-timeout='10' client-hello-timeout='10' /><tunnel-method value='ppp' /><tunnel-method value='tun' /><fos platform='FG100E' major='6' minor='02' patch='2' build='1010' branch='1010' /><auth-ses check-src-ip='1' tun-connect-without-reauth='0' tun-user-ses-timeout='30' /><client-config save-password='on' keep-alive='off' auto-connect='off' /><ipv4><dns ip='8.8.8.8' /><dns ip='8.8.4.4' /><assigned-addr ipv4='10.212.134.197' /></ipv4><idle-timeout val='300' /><auth-timeout val='28800' /></sslvpn-tunnel>
+----
+
+11/23/2022 18:18:22 [46100] dns suffix: 
+
+11/23/2022 18:18:22 [46031] Failed to get product id
+11/23/2022 18:18:22 [46031] Failed to get product id
+11/23/2022 18:18:22 [46100] Got local address from ppp, interface will be  up
+11/23/2022 18:18:34 [46100] ppp interface is up
+11/23/2022 18:18:34 [46100] run_scutil 103.241.136.21 0 0...
+Generating pppd.resolv.conf...Done
+11/23/2022 18:18:35 [46194] begin sysconfig linux
+11/23/2022 18:18:35 [46194] Gateway to FGT: 192.168.1.1
+11/23/2022 18:18:35 [46194] delete route 1.1.1.1
+11/23/2022 18:18:35 [46194] Add the route for 103.241.136.21(192.168.1.1)
+11/23/2022 18:18:35 [46194] router add default gw 10.212.134.197
+11/23/2022 18:42:21 [46089] rcv cmd:1 at state[1]
+11/23/2022 18:42:21 [46089] stopping ssl vpn tunnel[v4.4.2336]
+11/23/2022 18:42:21 [46089] kill_child:46100
+11/23/2022 18:42:21 [46089] kill_child:46094
+11/23/2022 18:42:21 [46094] signal rcved, logout now
+11/23/2022 18:42:21 [46100] killing pppd ...
+11/23/2022 18:42:21 [46100] kill_child:46102
+11/23/2022 18:42:21 [46094] ssl_write error return -1
+11/23/2022 18:42:21 [46100] kill_child:46194
+11/23/2022 18:42:21 [46089] tunnel terminated
+11/23/2022 18:42:21 [48365] begin cleanup linux...
+11/23/2022 18:42:21 [48365] restore /etc/resolv.conf
+11/23/2022 18:42:21 [48365] clean up route...
+11/23/2022 18:42:21 [48365] truncate pppd.log
+11/23/2022 18:42:21 [48365] truncate forticlientsslvpn.log
+11/23/2022 18:42:21 [46089] ssl vpn tunnel stopped
+11/23/2022 18:42:21 [46089] rcv cmd:2 at state[0]
+11/23/2022 18:42:22 [46031] Failed to get product id
+11/23/2022 18:42:22 [46031] Failed to get product id
