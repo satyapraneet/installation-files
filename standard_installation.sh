@@ -19,12 +19,13 @@ sleep 2
 
 #Zoom installing
 wget https://zoom.us/client/5.12.6.173/zoom_amd64.deb -P /tmp && chmod 777 /tmp/zoom_amd64.deb
-sudo apt install ./tmp/zoom_amd64.deb
+cd /tmp
+sudo apt install ./zoom_amd64.deb
 sleep 2
 
 #slack installing
 wget https://downloads.slack-edge.com/releases/linux/4.28.184/prod/x64/slack-desktop-4.28.184-amd64.deb -P /tmp && chmod 777 /tmp/slack-desktop-4.28.184-amd64.deb
-sudo sudo apt install ./tmp/slack-desktop-4.28.184-amd64.deb
+sudo apt install ./slack-desktop-4.28.184-amd64.deb
 sleep 2
 
 sudo apt install mysql-server -y
@@ -32,7 +33,7 @@ sleep 2
 
 #MySQL Workbench
 wget https://github.com/satyapraneet63/installation-files/raw/main/mysql-workbench-community_8.0.16-1ubuntu18.04_amd64.deb -P /tmp && chmod 777 /tmp/mysql-workbench-community_8.0.16-1ubuntu18.04_amd64.deb
-sudo apt install ./tmp/mysql-workbench-community_8.0.16-1ubuntu18.04_amd64.deb
+sudo apt install ./mysql-workbench-community_8.0.16-1ubuntu18.04_amd64.deb
 sleep 2
 
 #Any_Desk Installing
