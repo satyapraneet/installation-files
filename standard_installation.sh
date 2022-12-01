@@ -38,7 +38,7 @@ sleep 2
 
 #Any_Desk Installing
 wget https://download.anydesk.com/linux/anydesk_6.2.0-1_amd64.deb -P /tmp && chmod 777 /tmp/anydesk_6.2.0-1_amd64.deb
-sudo apt install ./tmp/anydesk_6.2.0-1_amd64.deb
+sudo apt install ./anydesk_6.2.0-1_amd64.deb
 sleep 2
 
 #intellij IDE
@@ -52,3 +52,4 @@ git lfs install
 sleep 2
 
 sudo apt --fix-broken install -y
+sudo dpkg --configure -a
